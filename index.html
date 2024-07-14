@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Pages 게시판 예시</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>GitHub Pages 게시판</h1>
+    </header>
+    <main>
+        <section id="posts">
+            <!-- Issues가 표시될 영역 -->
+        </section>
+        <section id="new-post">
+            <h2>새 글 작성</h2>
+            <form id="post-form">
+                <label for="title">제목:</label>
+                <input type="text" id="title" name="title" required>
+                <label for="body">내용:</label>
+                <textarea id="body" name="body" required></textarea>
+                <button type="submit">글 작성</button>
+            </form>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
